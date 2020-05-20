@@ -3,9 +3,11 @@ public class Main {
         Ship ship = new Ship();
         Plane plane = new Plane();
         Car car = new Car();
+
         car.printMovement();
         plane.printMovement();
         ship.printMovement();
+
 
 
     }
