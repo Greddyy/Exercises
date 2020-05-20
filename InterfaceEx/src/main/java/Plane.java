@@ -1,8 +1,8 @@
 public class Plane implements Transport{
 
     @Override
-    public void moving() {
-         
+    public String moving() {
+         return "Plane is flying in the sky";
 
     }
 }

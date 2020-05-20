@@ -1,6 +1,7 @@
 public interface Transport {
-    void moving();
+    String moving();
     default void printMovement(){
-        moving();
+        System.out.println(moving());
+
     }
 }
