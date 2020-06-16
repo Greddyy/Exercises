@@ -4,9 +4,8 @@ public class Main {
         Plane plane = new Plane();
         Car car = new Car();
 
-        car.printMovement();
-        plane.printMovement();
-        ship.printMovement();
+
+
 
 
 
